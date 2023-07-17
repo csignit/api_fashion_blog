@@ -47,8 +47,3 @@ public class BlogUserController {
         return ResponseEntity.ok(response);
     }
 }
-//
-//    @DeleteMapping("/deleteTask/{AdminId}/{PostId}")
-//    public  ResponseEntity<?> deletePost (@PathVariable("AdminId")Long adminId, @PathVariable("PostId")Long postId){
-//        var response = adminService.deletePost(adminId, postId);
-//        return ResponseEntity.ok(response);
